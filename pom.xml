@@ -69,7 +69,7 @@
         <repository>
             <id>github</id>
             <name>GitHub Maven Packages</name>
-            <url>https://maven.pkg.github.com/fordes123/spring-boot-jfx</url>
+            <url>https://maven.pkg.github.com/fordes123/springboot-jfx</url>
         </repository>
     </distributionManagement>
 
