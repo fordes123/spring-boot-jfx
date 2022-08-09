@@ -10,10 +10,10 @@
     </parent>
 
     <groupId>org.fordes</groupId>
-    <artifactId>springboot-jfx</artifactId>
+    <artifactId>spring-boot-jfx</artifactId>
     <version>0.0.1</version>
-    <name>springboot-jfx</name>
-    <description>springboot-jfx</description>
+    <name>spring-boot-jfx</name>
+    <description>spring-boot-jfx</description>
 
     <repositories>
         <repository>
@@ -64,5 +64,13 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Maven Packages</name>
+            <url>https://maven.pkg.github.com/fordes123/spring-boot-jfx</url>
+        </repository>
+    </distributionManagement>
 
 </project>
